@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VW Touareg — полировка, оклейка, химчистка | ONYX DETAILING</title>
+  <meta name="description" content="Проект: VW Touareg. Состояние тяжёлое, 315 тыс. км. Полировка, оклейка, керамика Everglass, химчистка. 5 рабочих дней.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-project layout-footer-bottom">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-onyx">ONYX</span>
+        <span class="logo-detail">DETAILING</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Наши проекты</a>
+        <a href="index.html#prices">Цены</a>
+        <a href="index.html#why">Почему мы</a>
+        <a href="index.html#about">О нас</a>
+        <a href="index.html#contacts">Контакты</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="container container-project-detail">
+      <a href="projects.html" class="project-back">← Наши проекты</a>
+
+      <div class="project-detail-card">
+        <h1 class="project-title">VW Touareg — полировка, оклейка, химчистка</h1>
+        <p class="project-meta">Состояние очень тяжёлое, пробег 315 тыс. км. 5 рабочих дней.</p>
+        <ul class="project-list project-list-page">
+          <li>Подготовка: мойка, очистка от сложных загрязнений, демонтаж ручек и шильдов</li>
+          <li>Полировка кузова и оптики</li>
+          <li>Защитная плёнка на глянцевые стойки дверей, под ручки и пороги изнутри</li>
+          <li>Антидождь (−лёд) на лобовое и боковые стёкла</li>
+          <li>Защита кузова керамическим составом Everglass</li>
+          <li>Химчистка салона</li>
+        </ul>
+      </div>
+
+      <div class="project-gallery" id="projectGallery">
+        <img src="media/media-my project/1.jpg" alt="VW Touareg — 1" data-index="0">
+        <img src="media/media-my project/2.jpg" alt="VW Touareg — 2" data-index="1">
+        <img src="media/media-my project/3.jpg" alt="VW Touareg — 3" data-index="2">
+        <img src="media/media-my project/4.jpg" alt="VW Touareg — 4" data-index="3">
+        <img src="media/media-my project/5.jpg" alt="VW Touareg — 5" data-index="4">
+        <img src="media/media-my project/6.jpg" alt="VW Touareg — 6" data-index="5">
+        <img src="media/media-my project/7.jpg" alt="VW Touareg — 7" data-index="6">
+        <img src="media/media-my project/8.jpg" alt="VW Touareg — 8" data-index="7">
+        <img src="media/media-my project/9.jpg" alt="VW Touareg — 9" data-index="8">
+        <img src="media/media-my project/10.jpg" alt="VW Touareg — 10" data-index="9">
+        <img src="media/media-my project/11.jpg" alt="VW Touareg — 11" data-index="10">
+        <img src="media/media-my project/12.jpg" alt="VW Touareg — 12" data-index="11">
+        <img src="media/media-my project/13.jpg" alt="VW Touareg — 13" data-index="12">
+        <img src="media/media-my project/14.jpg" alt="VW Touareg — 14" data-index="13">
+        <img src="media/media-my project/15.jpg" alt="VW Touareg — 15" data-index="14">
+        <img src="media/media-my project/16.jpg" alt="VW Touareg — 16" data-index="15">
+        <img src="media/media-my project/17.jpg" alt="VW Touareg — 17" data-index="16">
+        <img src="media/media-my project/18.jpg" alt="VW Touareg — 18" data-index="17">
+      </div>
+    </div>
+  </main>
+
+  <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+    <button type="button" class="gallery-modal-close" id="galleryModalClose" aria-label="Закрыть">×</button>
+    <button type="button" class="gallery-modal-prev" id="galleryModalPrev" aria-label="Назад">‹</button>
+    <button type="button" class="gallery-modal-next" id="galleryModalNext" aria-label="Вперёд">›</button>
+    <div class="gallery-modal-inner">
+      <img src="" alt="" id="galleryModalImg">
+    </div>
+    <span class="gallery-modal-counter" id="galleryModalCounter"></span>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="logo-footer">ONYX DETAILING</span>
+        <p>© 2025 ONYX DETAILING. Детейлинг с ювелирной точностью.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="project-gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши проекты | ONYX DETAILING</title>
+  <meta name="description" content="Примеры работ ONYX DETAILING: полировка, оклейка, керамика. VW Touareg, Land Cruiser Prado, BMW X7.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-project layout-footer-bottom page-projects-list">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-onyx">ONYX</span>
+        <span class="logo-detail">DETAILING</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Наши проекты</a>
+        <a href="index.html#prices">Цены</a>
+        <a href="index.html#why">Почему мы</a>
+        <a href="index.html#about">О нас</a>
+        <a href="index.html#contacts">Контакты</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="container container-projects-list">
+      <a href="index.html" class="project-back">← Главная</a>
+      <h1 class="section-title projects-page-title">Наши проекты</h1>
+      <p class="section-lead">Примеры работ: оклейка, полировка, керамика. Выберите проект и листайте галерею.</p>
+
+      <div class="project-select-wrap">
+        <span class="project-select-label">Проект</span>
+        <div class="project-select-custom" id="projectSelectCustom" aria-expanded="false" aria-haspopup="listbox" role="combobox" aria-label="Выбор проекта">
+          <button type="button" class="project-select-trigger" id="projectSelectTrigger" aria-label="Выбор проекта">
+            <span class="project-select-value">Проект 1 — VW Touareg</span>
+            <span class="project-select-chevron" aria-hidden="true">▼</span>
+          </button>
+          <ul class="project-select-list" id="projectSelectList" role="listbox" aria-hidden="true">
+            <li class="project-select-option" role="option" data-value="0" id="opt-0">Проект 1 — VW Touareg</li>
+            <li class="project-select-option" role="option" data-value="1" id="opt-1">Проект 2 — VW Touareg 2</li>
+            <li class="project-select-option" role="option" data-value="2" id="opt-2">Проект 3 — Land Cruiser Prado</li>
+            <li class="project-select-option" role="option" data-value="3" id="opt-3">Проект 4 — BMW X7</li>
+          </ul>
+        </div>
+        <select id="projectSelect" class="project-select-native" aria-hidden="true" tabindex="-1">
+          <option value="0">Проект 1 — VW Touareg</option>
+          <option value="1">Проект 2 — VW Touareg 2</option>
+          <option value="2">Проект 3 — Land Cruiser Prado</option>
+          <option value="3">Проект 4 — BMW X7</option>
+        </select>
+      </div>
+
+      <!-- Проект 1 -->
+      <article class="project-full is-active" id="project-1" role="tabpanel" aria-labelledby="tab-1">
+        <div class="project-detail-card">
+          <span class="project-card-label project-card-label-inline">Проект 1</span>
+          <h2 class="project-title">VW Touareg — полировка, оклейка, химчистка</h2>
+          <p class="project-meta">Состояние очень тяжёлое, пробег 315 тыс. км. 5 рабочих дней.</p>
+          <ul class="project-list project-list-page">
+            <li>Подготовка: мойка, очистка от сложных загрязнений, демонтаж ручек и шильдов</li>
+            <li>Полировка кузова и оптики</li>
+            <li>Защитная плёнка на глянцевые стойки дверей, под ручки и пороги изнутри</li>
+            <li>Антидождь (−лёд) на лобовое и боковые стёкла</li>
+            <li>Защита кузова керамическим составом Everglass</li>
+            <li>Химчистка салона</li>
+          </ul>
+        </div>
+        <div class="project-gallery" id="projectGallery1">
+          <img src="media/media-my project/1.jpg" alt="VW Touareg — 1" data-index="0">
+          <img src="media/media-my project/2.jpg" alt="VW Touareg — 2" data-index="1">
+          <img src="media/media-my project/3.jpg" alt="VW Touareg — 3" data-index="2">
+          <img src="media/media-my project/4.jpg" alt="VW Touareg — 4" data-index="3">
+          <img src="media/media-my project/5.jpg" alt="VW Touareg — 5" data-index="4">
+          <img src="media/media-my project/6.jpg" alt="VW Touareg — 6" data-index="5">
+          <img src="media/media-my project/7.jpg" alt="VW Touareg — 7" data-index="6">
+          <img src="media/media-my project/8.jpg" alt="VW Touareg — 8" data-index="7">
+          <img src="media/media-my project/9.jpg" alt="VW Touareg — 9" data-index="8">
+          <img src="media/media-my project/10.jpg" alt="VW Touareg — 10" data-index="9">
+          <img src="media/media-my project/11.jpg" alt="VW Touareg — 11" data-index="10">
+          <img src="media/media-my project/12.jpg" alt="VW Touareg — 12" data-index="11">
+          <img src="media/media-my project/13.jpg" alt="VW Touareg — 13" data-index="12">
+          <img src="media/media-my project/14.jpg" alt="VW Touareg — 14" data-index="13">
+          <img src="media/media-my project/15.jpg" alt="VW Touareg — 15" data-index="14">
+          <img src="media/media-my project/16.jpg" alt="VW Touareg — 16" data-index="15">
+          <img src="media/media-my project/17.jpg" alt="VW Touareg — 17" data-index="16">
+          <img src="media/media-my project/18.jpg" alt="VW Touareg — 18" data-index="17">
+        </div>
+      </article>
+
+      <!-- Проект 2 -->
+      <article class="project-full" id="project-2" role="tabpanel" aria-labelledby="tab-2" hidden>
+        <div class="project-detail-card">
+          <span class="project-card-label project-card-label-inline">Проект 2</span>
+          <h2 class="project-title">VW Touareg — полировка и оклейка авто</h2>
+          <p class="project-meta">Машина постоянного клиента, пробег 180 тыс. км.</p>
+          <div class="project-detail-text">
+            <p>Автомобиль 2-го поколения, да и пробег довольно серьёзный, но весь в заводском окрасе — поэтому защита плёнкой лишней не будет.</p>
+            <p>Автомобиль был оклеен практически весь, кроме крыши и ряда мелких элементов. Клиент получил надёжнейшую защиту на много лет и очень большую скидку.</p>
+          </div>
+        </div>
+        <div class="project-gallery" id="projectGallery2">
+          <img src="media/media-my project/media-my project 2/1.jpg" alt="VW Touareg 2 — 1" data-index="0">
+          <img src="media/media-my project/media-my project 2/2.jpg" alt="VW Touareg 2 — 2" data-index="1">
+          <img src="media/media-my project/media-my project 2/3.jpg" alt="VW Touareg 2 — 3" data-index="2">
+          <img src="media/media-my project/media-my project 2/4.jpg" alt="VW Touareg 2 — 4" data-index="3">
+          <img src="media/media-my project/media-my project 2/5.jpg" alt="VW Touareg 2 — 5" data-index="4">
+          <img src="media/media-my project/media-my project 2/6.jpg" alt="VW Touareg 2 — 6" data-index="5">
+          <img src="media/media-my project/media-my project 2/7.jpg" alt="VW Touareg 2 — 7" data-index="6">
+          <img src="media/media-my project/media-my project 2/8.jpg" alt="VW Touareg 2 — 8" data-index="7">
+          <img src="media/media-my project/media-my project 2/9.jpg" alt="VW Touareg 2 — 9" data-index="8">
+          <img src="media/media-my project/media-my project 2/10.jpg" alt="VW Touareg 2 — 10" data-index="9">
+          <img src="media/media-my project/media-my project 2/11.jpg" alt="VW Touareg 2 — 11" data-index="10">
+        </div>
+      </article>
+
+      <!-- Проект 3 -->
+      <article class="project-full" id="project-3" role="tabpanel" aria-labelledby="tab-3" hidden>
+        <div class="project-detail-card">
+          <span class="project-card-label project-card-label-inline">Проект 3</span>
+          <h2 class="project-title">Land Cruiser Prado: коррекция + керамика</h2>
+          <p class="project-meta">Автомобиль постоянного клиента, состояние хорошее.</p>
+          <div class="project-detail-text">
+            <p>Машина была очищена от сложных загрязнений, проведена лёгкая полировка и покрыта составом Gyeon Syncro Evo.</p>
+          </div>
+        </div>
+        <div class="project-gallery" id="projectGallery3">
+          <img src="media/media-my project/media-my project 3/1.jpg" alt="Land Cruiser Prado — 1" data-index="0">
+          <img src="media/media-my project/media-my project 3/2.jpg" alt="Land Cruiser Prado — 2" data-index="1">
+          <img src="media/media-my project/media-my project 3/3.jpg" alt="Land Cruiser Prado — 3" data-index="2">
+          <img src="media/media-my project/media-my project 3/4.jpg" alt="Land Cruiser Prado — 4" data-index="3">
+        </div>
+      </article>
+
+      <!-- Проект 4 -->
+      <article class="project-full" id="project-4" role="tabpanel" aria-labelledby="tab-4" hidden>
+        <div class="project-detail-card">
+          <span class="project-card-label project-card-label-inline">Проект 4</span>
+          <h2 class="project-title">BMW X7: детейлинг кузова</h2>
+          <p class="project-meta">Автомобиль постоянного клиента, ранее в работе не был.</p>
+          <ul class="project-list project-list-page">
+            <li>Подготовка: мойка, очистка от сложных загрязнений, демонтаж ручек</li>
+            <li>Полировка кузова и оптики</li>
+            <li>Защитная плёнка на фары, глянцевые стойки дверей и под ручки</li>
+            <li>Антихром дверных молдингов (помутнели)</li>
+            <li>Защита кузова керамическим составом Everglass Tantal + Graphen</li>
+          </ul>
+        </div>
+        <div class="project-gallery" id="projectGallery4">
+          <img src="media/media-my project/media-my project 4/1.jpg" alt="BMW X7 — 1" data-index="0">
+          <img src="media/media-my project/media-my project 4/2.jpg" alt="BMW X7 — 2" data-index="1">
+          <img src="media/media-my project/media-my project 4/3.jpg" alt="BMW X7 — 3" data-index="2">
+          <img src="media/media-my project/media-my project 4/4.jpg" alt="BMW X7 — 4" data-index="3">
+          <img src="media/media-my project/media-my project 4/5.jpg" alt="BMW X7 — 5" data-index="4">
+          <img src="media/media-my project/media-my project 4/6.jpg" alt="BMW X7 — 6" data-index="5">
+          <img src="media/media-my project/media-my project 4/7.jpg" alt="BMW X7 — 7" data-index="6">
+          <img src="media/media-my project/media-my project 4/8.jpg" alt="BMW X7 — 8" data-index="7">
+          <img src="media/media-my project/media-my project 4/9.jpg" alt="BMW X7 — 9" data-index="8">
+          <img src="media/media-my project/media-my project 4/10.jpg" alt="BMW X7 — 10" data-index="9">
+          <img src="media/media-my project/media-my project 4/11.jpg" alt="BMW X7 — 11" data-index="10">
+          <img src="media/media-my project/media-my project 4/12.jpg" alt="BMW X7 — 12" data-index="11">
+          <img src="media/media-my project/media-my project 4/13.jpg" alt="BMW X7 — 13" data-index="12">
+          <img src="media/media-my project/media-my project 4/14.jpg" alt="BMW X7 — 14" data-index="13">
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+    <button type="button" class="gallery-modal-close" id="galleryModalClose" aria-label="Закрыть">×</button>
+    <button type="button" class="gallery-modal-prev" id="galleryModalPrev" aria-label="Назад">‹</button>
+    <button type="button" class="gallery-modal-next" id="galleryModalNext" aria-label="Вперёд">›</button>
+    <div class="gallery-modal-inner">
+      <img src="" alt="" id="galleryModalImg">
+    </div>
+    <span class="gallery-modal-counter" id="galleryModalCounter"></span>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="logo-footer">ONYX DETAILING</span>
+        <p>© 2025 ONYX DETAILING. Детейлинг с ювелирной точностью.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="project-gallery.js"></script>
+  <script src="projects-tabs.js"></script>
+</body>
+</html>

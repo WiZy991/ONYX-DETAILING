@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW X7 — детейлинг кузова | ONYX DETAILING</title>
+  <meta name="description" content="Проект: BMW X7. Автомобиль постоянного клиента. Полировка, плёнка на фары и стойки, антихром молдингов, керамика Everglass Tantal + Graphen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-project layout-footer-bottom">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-onyx">ONYX</span>
+        <span class="logo-detail">DETAILING</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Наши проекты</a>
+        <a href="index.html#prices">Цены</a>
+        <a href="index.html#why">Почему мы</a>
+        <a href="index.html#about">О нас</a>
+        <a href="index.html#contacts">Контакты</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="container container-project-detail">
+      <a href="projects.html" class="project-back">← Наши проекты</a>
+
+      <div class="project-detail-card">
+        <h1 class="project-title">BMW X7: детейлинг кузова</h1>
+        <p class="project-meta">Автомобиль постоянного клиента, ранее в работе не был.</p>
+        <ul class="project-list project-list-page">
+          <li>Подготовка: мойка, очистка от сложных загрязнений, демонтаж ручек</li>
+          <li>Полировка кузова и оптики</li>
+          <li>Защитная плёнка на фары, глянцевые стойки дверей и под ручки</li>
+          <li>Антихром дверных молдингов (помутнели)</li>
+          <li>Защита кузова керамическим составом Everglass Tantal + Graphen</li>
+        </ul>
+      </div>
+
+      <div class="project-gallery" id="projectGallery">
+        <img src="media/media-my project/media-my project 4/1.jpg" alt="BMW X7 — 1" data-index="0">
+        <img src="media/media-my project/media-my project 4/2.jpg" alt="BMW X7 — 2" data-index="1">
+        <img src="media/media-my project/media-my project 4/3.jpg" alt="BMW X7 — 3" data-index="2">
+        <img src="media/media-my project/media-my project 4/4.jpg" alt="BMW X7 — 4" data-index="3">
+        <img src="media/media-my project/media-my project 4/5.jpg" alt="BMW X7 — 5" data-index="4">
+        <img src="media/media-my project/media-my project 4/6.jpg" alt="BMW X7 — 6" data-index="5">
+        <img src="media/media-my project/media-my project 4/7.jpg" alt="BMW X7 — 7" data-index="6">
+        <img src="media/media-my project/media-my project 4/8.jpg" alt="BMW X7 — 8" data-index="7">
+        <img src="media/media-my project/media-my project 4/9.jpg" alt="BMW X7 — 9" data-index="8">
+        <img src="media/media-my project/media-my project 4/10.jpg" alt="BMW X7 — 10" data-index="9">
+        <img src="media/media-my project/media-my project 4/11.jpg" alt="BMW X7 — 11" data-index="10">
+        <img src="media/media-my project/media-my project 4/12.jpg" alt="BMW X7 — 12" data-index="11">
+        <img src="media/media-my project/media-my project 4/13.jpg" alt="BMW X7 — 13" data-index="12">
+        <img src="media/media-my project/media-my project 4/14.jpg" alt="BMW X7 — 14" data-index="13">
+      </div>
+    </div>
+  </main>
+
+  <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+    <button type="button" class="gallery-modal-close" id="galleryModalClose" aria-label="Закрыть">×</button>
+    <button type="button" class="gallery-modal-prev" id="galleryModalPrev" aria-label="Назад">‹</button>
+    <button type="button" class="gallery-modal-next" id="galleryModalNext" aria-label="Вперёд">›</button>
+    <div class="gallery-modal-inner">
+      <img src="" alt="" id="galleryModalImg">
+    </div>
+    <span class="gallery-modal-counter" id="galleryModalCounter"></span>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="logo-footer">ONYX DETAILING</span>
+        <p>© 2025 ONYX DETAILING. Детейлинг с ювелирной точностью.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="project-gallery.js"></script>
+</body>
+</html>

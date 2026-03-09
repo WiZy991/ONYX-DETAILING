@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VW Touareg — полировка и оклейка | ONYX DETAILING</title>
+  <meta name="description" content="Проект: VW Touareg 2. Машина постоянного клиента, 180 тыс. км. Оклейка практически всего кузова, защита на годы.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-project layout-footer-bottom">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-onyx">ONYX</span>
+        <span class="logo-detail">DETAILING</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Наши проекты</a>
+        <a href="index.html#prices">Цены</a>
+        <a href="index.html#why">Почему мы</a>
+        <a href="index.html#about">О нас</a>
+        <a href="index.html#contacts">Контакты</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="container container-project-detail">
+      <a href="projects.html" class="project-back">← Наши проекты</a>
+
+      <div class="project-detail-card">
+        <h1 class="project-title">VW Touareg — полировка и оклейка авто</h1>
+        <p class="project-meta">Машина постоянного клиента, пробег 180 тыс. км.</p>
+        <div class="project-detail-text">
+          <p>Автомобиль 2-го поколения, да и пробег довольно серьёзный, но весь в заводском окрасе — поэтому защита плёнкой лишней не будет.</p>
+          <p>Автомобиль был оклеен практически весь, кроме крыши и ряда мелких элементов. Клиент получил надёжнейшую защиту на много лет и очень большую скидку.</p>
+        </div>
+      </div>
+
+      <div class="project-gallery" id="projectGallery">
+        <img src="media/media-my project/media-my project 2/1.jpg" alt="VW Touareg 2 — 1" data-index="0">
+        <img src="media/media-my project/media-my project 2/2.jpg" alt="VW Touareg 2 — 2" data-index="1">
+        <img src="media/media-my project/media-my project 2/3.jpg" alt="VW Touareg 2 — 3" data-index="2">
+        <img src="media/media-my project/media-my project 2/4.jpg" alt="VW Touareg 2 — 4" data-index="3">
+        <img src="media/media-my project/media-my project 2/5.jpg" alt="VW Touareg 2 — 5" data-index="4">
+        <img src="media/media-my project/media-my project 2/6.jpg" alt="VW Touareg 2 — 6" data-index="5">
+        <img src="media/media-my project/media-my project 2/7.jpg" alt="VW Touareg 2 — 7" data-index="6">
+        <img src="media/media-my project/media-my project 2/8.jpg" alt="VW Touareg 2 — 8" data-index="7">
+        <img src="media/media-my project/media-my project 2/9.jpg" alt="VW Touareg 2 — 9" data-index="8">
+        <img src="media/media-my project/media-my project 2/10.jpg" alt="VW Touareg 2 — 10" data-index="9">
+        <img src="media/media-my project/media-my project 2/11.jpg" alt="VW Touareg 2 — 11" data-index="10">
+      </div>
+    </div>
+  </main>
+
+  <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+    <button type="button" class="gallery-modal-close" id="galleryModalClose" aria-label="Закрыть">×</button>
+    <button type="button" class="gallery-modal-prev" id="galleryModalPrev" aria-label="Назад">‹</button>
+    <button type="button" class="gallery-modal-next" id="galleryModalNext" aria-label="Вперёд">›</button>
+    <div class="gallery-modal-inner">
+      <img src="" alt="" id="galleryModalImg">
+    </div>
+    <span class="gallery-modal-counter" id="galleryModalCounter"></span>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="logo-footer">ONYX DETAILING</span>
+        <p>© 2025 ONYX DETAILING. Детейлинг с ювелирной точностью.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="project-gallery.js"></script>
+</body>
+</html>
